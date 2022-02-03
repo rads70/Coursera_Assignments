@@ -1,0 +1,50 @@
+.page-wrapper {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar {
+   padding-top: 60px;
+   transition: 0.2s;
+   width: 200px;
+   overflow: hidden;
+   background-color: lightseagreen;
+   float: left;
+}
+
+.sidebar hr {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: groove;
+   height: 2px;
+   color: lightyellow;
+}
+
+.sidebar i {
+   margin-right: 0.5em;
+}
+
+@media (max-width: 768px) {
+   .sidebar {
+      transition: 0.2s;
+      width: 75px;
+   }
+   .sidebar hr {
+      width: 80%;
+   }
+   .sidebar a {
+      visibility: visible;
+      overflow: hidden;
+      display: inline-block;
+   }
+   nav.nav {
+      flex-wrap: nowrap;
+      overflow: hidden;
+   }
+
+   .sidebar i {
+      visibility: visible;
+      display: inline-block;
+      padding-left: 15px;
+   }
+}
